@@ -34,6 +34,9 @@
 #Solution
 # Simple solution where the you store each number in the dictonary and check if target - current_number is already there in the dict or not. If it is then just return their indices
 
+# Complexity
+# O(n)
+
 from typing import List
 
 

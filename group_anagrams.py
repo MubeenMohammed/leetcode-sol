@@ -31,6 +31,10 @@
 # Then loop through the array and create frequency array of each string. What I mean by that is
 # For lets says act, the frequency array is a: 1, c: 1, t: 1 and use this as key for dict and act as value of the key in the dict
 # When I go the next string in the loop, you see if that similar frequency is already present in the dict and if it is then just append the string to the value array
+
+# COMPLEXITY
+# O(m * n) where m is the length of the list and n is the average length of the string
+
 from collections import defaultdict
 from typing import List
 
