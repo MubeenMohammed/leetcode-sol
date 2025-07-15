@@ -42,6 +42,8 @@ class Solution:
 
         # Lets write the code for this above solution
         # Convert the array into a set
+        if len(nums) == 0:
+            return 0
         my_set = set(nums)
         longest = 0
         for i in nums:
